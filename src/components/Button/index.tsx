@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const Button = (props: ButtonProps) => {
   return (
-    <button className="px-2 py-1" {...props}>
+    <button className="px-6 py-2 bg-primary rounded text-white" {...props}>
       {props.children || ''}
     </button>
   );
